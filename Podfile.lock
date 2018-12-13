@@ -1,0 +1,143 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AMap3DMap (6.5.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.5)
+  - AMapLocation (2.6.1):
+    - AMapFoundation (~> 1.4)
+  - AMapSearch (6.5.0):
+    - AMapFoundation (~> 1.4)
+  - FCUUID (1.3.1):
+    - UICKeyChainStore (~> 2.1.0)
+  - FSCalendar (2.8.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - JCore (1.2.5)
+  - JPush (3.1.1.1):
+    - JCore (~> 1.2.5)
+  - KeychainSwift (12.0.0)
+  - MJRefresh (3.1.15.7)
+  - mob_sharesdk (4.2.0):
+    - mob_sharesdk/ShareSDK (= 4.2.0)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.2.0):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKExtension (4.2.0):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.2.0):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.2.0):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.2.0):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.2.0):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.1.9)
+  - ObjectMapper (3.3.0)
+  - pop (1.0.12)
+  - PYSearch (0.9.0)
+  - SnapKit (4.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.2.0)
+  - SWTableViewCell (0.3.7)
+  - Toast-Swift (4.0.0)
+  - UICKeyChainStore (2.1.2)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - WMPageController (2.5.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Alamofire
+  - AMap3DMap
+  - AMapLocation
+  - AMapSearch
+  - FCUUID
+  - FSCalendar
+  - IQKeyboardManagerSwift
+  - JPush
+  - KeychainSwift
+  - MJRefresh
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKExtension
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/WeChat
+  - mob_sharesdk/ShareSDKUI
+  - ObjectMapper
+  - pop
+  - PYSearch
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyJSON
+  - SWTableViewCell
+  - Toast-Swift
+  - "UITableView+FDTemplateLayoutCell"
+  - WMPageController
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - FCUUID
+    - FSCalendar
+    - IQKeyboardManagerSwift
+    - JCore
+    - JPush
+    - KeychainSwift
+    - MJRefresh
+    - mob_sharesdk
+    - MOBFoundation
+    - ObjectMapper
+    - pop
+    - PYSearch
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+    - SWTableViewCell
+    - Toast-Swift
+    - UICKeyChainStore
+    - "UITableView+FDTemplateLayoutCell"
+    - WMPageController
+    - YYKit
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AMap3DMap: cbe10cc4302ac3f2817ef4221e1259d7e18d1c2f
+  AMapFoundation: 652bd70ba579f48a98bdf0c74d6e62a89a06ca58
+  AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
+  AMapSearch: c22d8c98e04aad30615834e567781ec1367c4f36
+  FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  JCore: 14706de2640b25fb77dbd02332696491407f37c9
+  JPush: 25dd9013fbe106082c14f9f30a82364ee98852fb
+  KeychainSwift: d5e776578587ee5958ce36601df22f168f65138a
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  mob_sharesdk: fc8a9aab921c08e5e88a5b1f36229c6d406a2ff8
+  MOBFoundation: 11500153c10d83e4ac341f6ad6301b3998ce6db2
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PYSearch: 55175e6046e2e1b5236a90c780351988e914a015
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 8ae5b1016a7528a47fa796ec27c6f8c3dde5ff3d
+
+COCOAPODS: 1.6.0.beta.1

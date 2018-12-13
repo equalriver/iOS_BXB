@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta charset="utf-8" />
+    <!--<link rel="stylesheet" type="text/css" href="css/swiper-3.4.1.min.css"/>-->
+    <style>
+        *{margin:0;padding:0;}
+        .div1,.div2{
+            margin: 40px auto;
+        }
+        @media only screen and (min-width: 320px){
+            html {
+                font-size: 62.5% !important;
+            }
+            .title{
+                font-size: 1.8rem;
+                color: #000000;
+                text-align: center;
+                margin-bottom: 1.8rem;
+                font-family: 'PingFangSC-Medium';
+            }
+            .title2,.title3{
+                font-size: 1.4rem;
+                color: #afb6be;
+                text-align: center;
+                line-height: 1.8rem;
+                font-family: 'PingFangSC-Regular'
+            }
+            img{
+                width: 76%;
+                margin:3.6rem 12%;
+            }
+        }
+        @media only screen and (min-width: 640px){
+            html {
+                font-size: 125% !important;
+            }
+            .title{
+                font-size: 1.5rem;
+                color: #000000;
+                text-align: center;
+                margin-bottom:1.5rem;
+                font-family: 'PingFangSC-Medium';
+            }
+            .title2,.title3{
+                font-size: 1.2rem;
+                color: #afb6be;
+                text-align: center;
+                line-height: 1.6rem;
+                font-family: 'PingFangSC-Regular'
+            }
+            img{
+                width: 76%;
+                margin:3rem 12%;
+            }
+        }
+        @media only screen and (min-width: 750px){
+            html {
+                font-size: 150% !important;
+            }
+            .title{
+                font-size: 1.2rem;
+                color: #000000;
+                text-align: center;
+                margin-bottom:1.2rem;
+                font-family: 'PingFangSC-Medium';
+            }
+            .title2,.title3{
+                font-size: 0.95rem;
+                color: #afb6be;
+                text-align: center;
+                line-height: 1.4rem;
+                font-family: 'PingFangSC-Regular'
+            }
+            img{
+                width: 76%;
+                margin:2.4rem 12%;
+            }
+        }
+        @media only screen and (min-width: 1242px){
+            html {
+                font-size: 187.5% !important;
+            }
+            .title{
+                font-size: 1rem;
+                color: #000000;
+                text-align: center;
+                margin-bottom:1rem;
+                font-family: 'PingFangSC-Medium';
+            }
+            .title2,.title3{
+                font-size: 0.77rem;
+                color: #afb6be;
+                text-align: center;
+                line-height: 1.1rem;
+                font-family: 'PingFangSC-Regular'
+            }
+            img{
+                width: 76%;
+                margin:2rem 12%;
+            }
+
+        }
+
+
+    </style>
+</head>
+<body style="margin:0 auto;position:relative;text-align: center">
+     <div class="div1">
+         <p  class="title">生日自动提醒</p>
+         <p class="title2">只需要将客户信息录入</p>
+         <p class="title3">客户及家庭成员生日将自动提醒</p>
+         <img src="img_kehu_1.png">
+     </div>
+     <div class="div2">
+         <p  class="title">花费记录</p>
+         <p class="title2">无论交通、礼物、关怀</p>
+         <p class="title3">每笔花费均可记录</p>
+         <img src="img_kehu_2.png">
+     </div>
+</body>
+</html>
+<script>
+     (function(){
+        change();
+        function change(){
+            /* 这里的html字体大小利用了一个简单书序公式（十字相乘），当我们默认设置以屏幕320px位基准此时的字体大小为20px(320    20px),那么浏览器窗口大小改变的时候新的html的fontSize（clientWidth  新的值）就是clientWidth*20/320 */
+            document.documentElement.style.fontSize = document.documentElement.clientWidth*20/320 + 'px';
+        }
+        /* 监听窗口大小发生改变时 */
+        window.addEventListener('resize',change,false);}
+        )();
+
+</script>
